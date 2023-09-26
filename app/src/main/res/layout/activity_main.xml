@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="44dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="27dp"
+        android:layout_toStartOf="@+id/editTextText"
+        app:srcCompat="@drawable/avatar" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="62dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="   Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editTextText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="   Password"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="202dp"
+        android:layout_height="194dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="92dp"
+        app:srcCompat="@drawable/bgt" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextTextPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="100dp"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="44dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="27dp"
+        android:layout_toStartOf="@+id/editTextTextPassword"
+        app:srcCompat="@drawable/secured" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Lê Thị Thùy Trâm-21115053120354"
+        android:fontFamily="sans-serif-medium"/>
+
+
+</RelativeLayout>
